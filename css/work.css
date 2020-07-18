@@ -1,16 +1,21 @@
 
 
+
 /* Reset */
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* main styling */
+@media(max-width=500px){
+
 
 html, body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.7em;
+}
 }
 
 a{
@@ -24,6 +29,7 @@ h1, h2, h3 {
 
 p{
   margin: 10px 0;
+  
 }
 /*Utilities*/
 .container{
@@ -91,8 +97,6 @@ p{
 }
 
 #navbar ul {
-  display: flex;
-  justify-content: center;
   list-style: none;
   float: right;
 }
@@ -109,14 +113,6 @@ text-align: center;
 #navbar ul li a.current{
   background: #444;
   color:#f7c08a;
-}
-
-@media only screen and (max-width: 767px) {
-  nav ul{
-    height: 230px;
-    flex-direction: column;
-    text-align: center;
-  }
 }
 
 /*showcase */
@@ -146,12 +142,6 @@ text-align: center;
 #home-info {
   height: 400px;
 }
-#home-info .info-img {
-  float: left;
-  width: 50%;
-  background: url('../img/coding.jpg');
-  min-height: 100%;
-}
 
 #home-info .info-content {
   float: right;
@@ -165,56 +155,26 @@ text-align: center;
   padding-bottom: 30px;
 }
 
-/*videos */
-#videos {
-  background: #444;
-  position: relative;
-  padding-bottom: 400px;
+.bg-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
 }
-.video-layout {
-width: 100%;
-max-width: 100%;
-border: 5px #444;
+.samples {
+
+  max-height: 100vh;
+
 }
-#vid1 iframe {
-  margin: 1px;
-  padding: 5px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 300px
+
+.samples img {
+  margin: 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  width: 180px;
+
 }
-#vid2 iframe {
-  margin: 0;
-  padding: 5px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 300px;
-}
-#vid3 iframe {
-  margin: 0;
-  padding: 5px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 300px;
-}
-#vid1 {
-  float: left;
-  padding:5px;
-  width:33%;
-  box-sizing:border-box;
-}
-#vid2 {
-  float: left;
-  padding:5px;
-  width:33%;
-  box-sizing:border-box;
-  }
-  #vid3 {
-    float: left;
-    padding:5px;
-    width:33%;
-    box-sizing:border-box;
-    }
+
     #main-footer {
 
       background-color: #444;
@@ -222,6 +182,8 @@ border: 5px #444;
       color: white;
       padding: 20px;
     }
-  }
-
-
+  
+    .bg-title {
+      margin-left: 400px;
+      padding-top: 5px;
+    }

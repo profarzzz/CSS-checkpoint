@@ -1,0 +1,137 @@
+
+
+      @media(max-width=500px){
+
+      }
+      
+      /* Reset */
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      /* main styling */
+      
+      html, body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 1.7em;
+      }
+      
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      
+      h1, h2, h3 {
+        padding-bottom: 20px;
+      }
+      
+      p{
+        margin: 10px 0;
+      }
+      /*Utilities*/
+      .container{
+        margin: auto;
+        max-width: 2000px;
+        overflow: auto;
+        padding: 0 20px;
+      
+      }
+      
+      .text-primary{
+        color: #f7c08a;
+      }
+      .lead {
+        font-size: 20px;
+      }
+      
+      
+      /* navbar */
+
+      #nav {
+        background-color: #333;
+      }
+      
+      #navbar{
+        color: white;
+        overflow: auto;
+      
+      }
+      
+      .img-fluid {
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        width: 100px;
+      }
+      
+      #navbar ul {
+        list-style: none;
+        float: right;
+      }
+      #navbar li{
+        float: left;
+      }
+      #navbar ul li a { 
+      display: block;
+      padding: 20px;
+      text-align: center;
+      }
+      
+      #navbar ul li a:hover,
+      #navbar ul li a.current{
+        background: #444;
+        color:#f7c08a;
+      }
+      
+      /*showcase */
+      #showcase {
+        background: url('../img/bg1.jpg') no-repeat;
+        height: 900px;
+        background-position: top;
+      }
+      
+      #showcase .about{
+        color: white;
+        text-align: left;
+        padding-top: 200px;
+        padding-left: 500px;
+        float: right;
+        margin-left: 40px;
+      }
+      
+      #showcase .about h1{
+        font-size: 60px;
+        line-height: 2.0em;
+      }
+      
+      #showcase .about p{
+        padding-bottom: 20px;
+        line-height: 1.7em;
+      }
+      
+      #gallery {
+        margin-left: 25%;
+        display: flex;
+        height: 30%; 
+        width: 900px; 
+        flex-direction: row;
+        justify-content: flex-end;
+      
+      }
+
+.photos {
+color: rgb(0, 0, 0);
+opacity: 60%;
+background: #f4f4f4;
+text-align: center;
+border: #ccc solid 2px;
+padding: 1rem;
+flex: 2;
+margin: 5px;
+}
+
+
+}

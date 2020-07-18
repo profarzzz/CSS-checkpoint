@@ -1,104 +1,71 @@
 <!DOCTYPE html>
-<html>
-  <head>  
-    <title> Magic Designer </title>
-    <h1 style="background-color:rgb(255, 255, 255);">Magic Designer</h1>
-
-    </head>
-    <body style="background-color:rgb(133, 200, 231);">
-     <!-- Headings-->
-     <h1 style="background-color:rgb(255, 255, 255);"> Menu</h1>
-
-     <div class="nav">
-      <section>
-      <a href="index.html">Home</a>
-    </section>
-    <section>
-      <a href="About.html">About</a>
-    </section>
-    <section>
-      <a href="Work.html">Work</a>
-    </section>
-    <section>
-      <a href="resume.html">Resume</a>
-    </section>
-    <section>
-      <a href="Contact.html">Contact</a>
-    </section>
-    </div>
-    
-
-    <br>
-    <br>
-    <div>
-
-      <h1> Approach </h1>
-        <p> We are a Tunisia website developers, designers and digital marketing agency, </p>
-          <p>We don't just take your order, we focus on delivering your orders and help you achieve your marketing goals and targets </p>
-          <!-- Article contents -->
-        </div>
-    <br>
-    <video width="640" height="360" autoplay>
-      <source src="vid/Promo.mp4" type="video/mp4" />
-    </video>
-    <p>
-      Video courtesy of 
-      <a href="https://www.youtube.com" target="_blank">Brows more videos</a>.
-      </p>
-  </br>
-<br>
-
-  <h1>Services</h1>
-
-  <!-- Disc bullets -->
-  <ul type="disc">
-    <li>Websites</li>
-    <li>Webapps</li>
-    <li>Phone apps</li>
-    <li>More options</li>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>J.Skryptonite</title>
+</head>
+<body>
+  <header>
+<nav id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <div class="logo-image">
+            <img src="img/Jskryptonite.png" class="img-fluid">
+      </div>
+  </a>
+  <ul>
+    <li><a class="current" href="index.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Resume.html">Resume</a></li>
+    <li><a href="work.html">Work</a></li>
+    <li><a href="contact.html">contact</a></li>
   </ul>
-  <br>
-  <br>
-  <br>
-<h2>Submit your request</h2>
-          <br>
+  </div>
+
+</nav>
+
+<div id="showcase">
+ <div class="container">
+   <div class="showcase-content">
+     <h1><span class="text-primary">Skryptonite</span> Design & Development</h1>
+     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quam, blanditiis officiis quod quae reiciendis voluptates animi! Enim, explicabo assumenda aliquid pariatur aut perspiciatis quae officia culpa molestiae. Rerum, sapiente!</p>
+<a class="btn" href="About.html">ABOUT ME</a>
+
+   </div>
+ </div>
 
 
-          <form>
-            <label>name:</label>
-            <input type="text" name="First name" placeholder="ex: Mark Smith" />
-            <br />
-      
-            <label>Mobile Number:</label>
-            <input type="tel" name="Phone Number" value="(+216)00000000 " />
-            <br />
-      
-            <label>Email:</label>
-            <input type="email" name="Email" value="example@website.com " />
-            <br />
+</div>
 
-            <label> Conference call/ Meeting Date:</label>
-            <input type="date" name="birthday" />
-            <br />
-      
-            <input type="submit" value="Submit" />
-          </form>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-     <footer>
-      <p>Author: Nizar Ben
-        <br>
-      <a href="contact@magicdesigner.com">contact@magicdesigner.com</a></p>
-      <audio controls>
-        <source src="music/promo.mp3" type="audio/mpeg">
-            Please Check the audio Extension
-    </audio>
-    
-    </footer>
+  </header>
 
-  </body>
+  <section id="home-info" class="bg-dark">
+   <div class="info-img"></div> 
+   <div class="info-content">
+     <h2>What makes me&nbsp;<span class="text-primary">different?</span></h2>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nisi nesciunt unde illum facere illo at est numquam, ullam autem minus dignissimos quisquam et incidunt quae? Quis velit amet deserunt.</p>
+   <a href="work.html" class="btn btn-light">Read more</a>
+    </div>
+
+  </section>
+
+  <section id="videos" class="videos">
+    <div class="video-layout">
+    <div id= "vid1">
+      <iframe src="https://www.youtube.com/embed/s6-iCla94lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="vid2">
+      <iframe src="https://www.youtube.com/embed/a1__rqrIb9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="vid3">
+      <iframe src="https://www.youtube.com/embed/YsdR0i_DQgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+  </section>
+  <footer id="main-footer">
+    <p>Java Skryptonite &copy 2020, All Rights Reserved </p>
+  </footer>
+</body>
 </html>
